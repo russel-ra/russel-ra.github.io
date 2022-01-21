@@ -14,7 +14,7 @@ source "https://rubygems.org"
 
 #version number retrieved from https://pages.github.com/versions/
 gem "github-pages", "~> 223", group: :jekyll_plugins
-
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
