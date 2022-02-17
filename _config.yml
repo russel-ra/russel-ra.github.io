@@ -23,7 +23,7 @@ email: ""
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://russel-ra.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: russelra
+twitter_username: ""
 github_username:  russel-ra
 
 # Build settings
