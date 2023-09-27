@@ -1,0 +1,52 @@
+
+html {
+    background-color: black;
+}
+
+#main {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 79vh;
+}
+
+/*
+#main:after {
+  content: "";
+  height: 0.9vh;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: white;
+}
+*/
+
+.user {
+    font-size: 13vw;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 4vw;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a::after {
+  content: "";
+  display: block;
+  height: 0.3vw;
+  top: 0.1vw;
+  width: 0;
+  position: relative;
+  background: #fff;
+}
+
+.links a:hover::after { 
+  width: 100%; 
+}
