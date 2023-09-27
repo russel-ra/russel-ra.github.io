@@ -23,13 +23,13 @@ html {
 */
 
 .user {
-    font-size: 13vw;
+    font-size: 11vw;
 }
 
 .links {
     display: flex;
     justify-content: space-around;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .links a {
