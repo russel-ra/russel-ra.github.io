@@ -24,12 +24,14 @@ html {
 
 .user {
     font-size: 11vw;
+    font-size: calc(6vw + 5vh);
 }
 
 .links {
     display: flex;
     justify-content: space-around;
     font-size: 3.5vw;
+    font-size: calc(2.5vw + 1vh);
 }
 
 .links a {

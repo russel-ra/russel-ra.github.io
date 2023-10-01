@@ -1,0 +1,15 @@
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+
+.work-in-progress {
+    color: white;
+    font-size: 7vw;
+}
