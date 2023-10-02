@@ -3,35 +3,22 @@ html {
     background-color: black;
 }
 
-#main {
+body {
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 79vh;
+    height: 87vh;
 }
-
-/*
-#main:after {
-  content: "";
-  height: 0.9vh;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  background: white;
-}
-*/
 
 .user {
-    font-size: 11vw;
     font-size: calc(6vw + 5vh);
 }
 
 .links {
     display: flex;
     justify-content: space-around;
-    font-size: 3.5vw;
-    font-size: calc(2.5vw + 1vh);
+    font-size: calc(0.35 * (6vw + 5vh));
 }
 
 .links a {
@@ -42,8 +29,8 @@ html {
 .links a::after {
   content: "";
   display: block;
-  height: 0.3vw;
-  top: 0.1vw;
+  height: calc(0.05 * (4vw + 5vh));
+  top: calc(0.05 * (4vw + 5vh));
   width: 0;
   position: relative;
   background: #fff;
