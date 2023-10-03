@@ -11,7 +11,8 @@ body {
     height: 87vh;
 }
 
-.user {
+h1 {
+    all: unset;
     font-size: calc(6vw + 5vh);
 }
 
