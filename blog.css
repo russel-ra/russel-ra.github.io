@@ -25,7 +25,7 @@ h1 {
     position: relative;
 }
 
-@media (max-width: 992px) {
+@media (orientation: portrait) {
     .blog-item {
         width: 90vw;
     }
