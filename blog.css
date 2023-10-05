@@ -15,7 +15,7 @@ h1 {
 }
 
 .blog-item {
-    font-size: calc(0.35 * (4vw + 5vh));
+    font-size: calc(0.30 * (3vw + 6.3vh));
     display: flex;
     justify-content: space-between;
     width: 66vw;
@@ -35,7 +35,7 @@ h1 {
   content: "";
   display: block;
   height: calc(0.05 * (4vw + 5vh));
-  top: calc(0.99 * (4vw + 5vh));
+  top: calc(0.69 * (4vw + 5.7vh));
   position: absolute;
   background: #fff;
 }
@@ -46,7 +46,10 @@ h1 {
 
 .blog-title {
     white-space: nowrap;
-    width: 70%;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.blog-date {
+    white-space: nowrap;
 }
