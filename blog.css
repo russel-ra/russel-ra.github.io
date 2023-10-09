@@ -15,10 +15,10 @@ h1 {
 }
 
 .blog-item {
-    font-size: calc(0.30 * (3vw + 6.3vh));
+    font-size: calc(0.31 * (3vw + 5.3vh));
     display: flex;
     justify-content: space-between;
-    width: 66vw;
+    width: 55vw;
     text-decoration: none;
     color: white;
     margin-bottom: -9px;
@@ -48,6 +48,7 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-right: 3%;
 }
 
 .blog-date {
