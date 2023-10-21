@@ -22,16 +22,16 @@ article {
     width: 47vw;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1125px) {
     article {
         width: 90vw;
-        font-size: calc(0.27 * (4vw + 7vh));
     }
 }
 
 code {
     display: block;
     white-space: pre-wrap;
+    font-size: 1.1rem;
 }
 
 img {
